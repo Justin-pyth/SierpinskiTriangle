@@ -33,12 +33,3 @@ public void mousePressed(){
   }
      
 }
-
-public int bunnyEars(int bunnies){
-  if (bunnies == 1){
-    return 2;
-  }
-  else{
-    return 2 + bunnyEars(bunnies-1);
-  }
-}
